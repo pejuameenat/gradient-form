@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.5em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: .7rem 1em;
+    text-transform: capitalize;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.border-list {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    padding: .3rem;
+    border: none;
+}
+
+/* .cart{
+
+} */
+.form-section {
+    max-width: 100%;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.heading h1 {
+    font-size: 3em;
+    padding: .3em 0;
+}
+
+.heading span {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.forms {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-image: linear-gradient(180deg, rgba(148, 114, 214, 0.4), rgba(238, 180, 189, 0.3));
+}
+
+.form-inputs {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    max-width: 250px;
+    width: 250px;
+}
+
+.form-inputs h3 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.form-inputs input {
+    padding: .5em;
+    width: 100%;
+    font-size: 1.1rem;
+    outline: none;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 1px 0 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+.form-inputs input::placeholder {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.btn-2 {
+    width: 100%;
+    padding: .8rem;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(196, 148, 242);
+    box-shadow: 2px 0 0 2px rgba(0, 0, 0, 0.9);
+}
